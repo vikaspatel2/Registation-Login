@@ -1,0 +1,97 @@
+﻿/* Body styles */
+body {
+    background-color: #f1f1f1;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: #00405d;
+}
+
+/* Subtitle styles */
+.subtitle {
+    color: #e67e22;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Form container styles */
+.container-fluid {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form control styles */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+    .btn:hover {
+        background-color: #d35400;
+    }
+
+/* Additional styles for better UI */
+.form-horizontal .control-label {
+    font-weight: bold;
+}
+
+.form-horizontal .form-group {
+    margin-bottom: 20px;
+}
+
+.form-horizontal .col-sm-2 {
+    text-align: right;
+}
+
+/* Styling for date input type */
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Styling for number input type */
+input[type="number"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
